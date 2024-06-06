@@ -1,0 +1,71 @@
+table {
+    width: 70%;
+    margin: 20px auto; 
+    border-collapse: collapse;
+    margin: 30px auto 20px auto;
+    font-size: 16px;
+    text-align: left;
+  }
+  
+
+  tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+
+  button {
+    border: none;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  
+  button.edit {
+    background-color: #2196F3; 
+  }
+
+  button.delete {
+    background-color: #f44336; 
+  }
+  
+  .alert-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999; /* Para garantir que o alerta esteja sempre visível */
+    max-width: 300px; /* Define a largura máxima do alerta */
+  }
+  
+  .alert {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+  }
+  
+  .alert .icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .alert .message {
+    flex-grow: 1;
+  }
+  
+  .alert-success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
